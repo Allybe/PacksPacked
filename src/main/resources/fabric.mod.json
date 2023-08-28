@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "packspacked",
+  "version": "${version}",
+  "name": "PacksPacked",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/packspacked/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.allybe.packspacked.client.PackspackedClient"
+    ],
+    "main": [
+      "me.allybe.packspacked.Packspacked"
+    ]
+  },
+  "mixins": [
+    "packspacked.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
